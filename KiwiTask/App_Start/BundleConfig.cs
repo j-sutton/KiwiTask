@@ -25,10 +25,10 @@ namespace KiwiTask
                 "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                "~/Content/main.css",
                 "~/Content/bootstrap.css",
+                "~/Content/themes/base/jquery-ui.css",
                 "~/Content/site.css",
-                "~/Content/themes/base/jquery-ui.css"));
+                "~/Content/main.css"));
         }
     }
 }

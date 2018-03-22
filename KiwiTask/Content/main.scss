@@ -1,3 +1,11 @@
-﻿.btn-primary {
-    
+﻿// Variables
+
+$primary-green: #6E9B34 ;
+$primary-brown: #4E2718;
+$b-radius: 1px;
+
+.btn-primary {
+    background-color: $primary-green;
+    border-radius: $b-radius;
+    border: 0px;
 }
