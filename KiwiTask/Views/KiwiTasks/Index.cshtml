@@ -1,0 +1,13 @@
+﻿@model IEnumerable<KiwiTask.Models.KiwiTask>
+@{
+    ViewBag.Title = "View";
+}
+
+<h2> Tasks </h2>
+
+<ul>
+    @foreach (var task in Model)
+    {
+        <li>@task.Name</li>
+    }
+</ul>

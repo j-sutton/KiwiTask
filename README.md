@@ -1,1 +1,2 @@
-# KiwiTask
+# kiwitask
+Task management web app
